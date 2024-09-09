@@ -1,0 +1,266 @@
+/*CLima*/
+.fundo1 {
+    background-color: #D2B48C; /* Cor de fundo marrom claro */
+}
+
+.borda {
+
+    border: 1px solid #6F4F28; /* Cor da borda em marrom claro */
+    border-radius: 30px; /*Arredondamento dos cantos*/
+    padding: px; /*Espaçamento Interno*/
+    background-color: #6F4F28CC; /* Fundo em marrom claro com transparência */
+    width: 270px; /*Largura*/
+    position: relative; /*Permite o uso dos comandos "top" e "left"*/
+    top: 200px; /*Move o elemento para baixo*/
+    left: 825px; /*Move o elemento para a direita*/
+    backdrop-filter: blur(10px); /*Aplica um desfoque ao fundo atrás do elemento*/
+}
+
+input[type="text"] {
+    
+    background-color: #FFDAB9; /* Cor de fundo laranja claro */
+    border-radius: 10px;
+    border-color: #a3753c; /* Cor da borda laranja escuro */
+    margin-bottom: 10px; /*Adiciona um espaço pixels abaixo de cada caixa de texto*/
+    width: 260px; /*Largura*/
+    height: 25px; /*Altura*/
+}
+
+button {
+    
+    background-color: #FFA07A; /* Cor de fundo laranja claro */
+    border-radius: 10px; 
+    color: #6F4F28; /* Cor do texto marrom escuro */
+    padding: 10px 20px; /*Adiciona 10 pixels de espaçamento interno acima e abaixo, e 20 pixels nas laterais*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Fonte*/
+    font-size: 20px; /*Tamanho da fonte*/
+    position: relative;
+    left: 75px;
+}
+
+h1 {
+    
+    position: relative;
+    left: 5px;
+    color: #463014; /* Cor do texto em dourado */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Fonte*/
+}
+
+/*DÓLAR*/
+.fundo2 {
+
+    background-color: #D2B48C; /* Cor de fundo marrom claro */
+
+    background-image: url(notas-de-dolar-estadunidense-um-dos-varios-tipos-de-dolares-utilizados-no-mundo.webp);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.borda2 {
+    border: 3px solid #5a3a13; /* Cor da borda laranja escuro */
+    border-radius: 8px; 
+    padding: 20px; 
+    background-color: #6F4F28CC; /* Fundo em marrom claro com transparência */
+    width: 260px;
+    height: 390px;
+    position: relative; 
+    top: 200px; 
+    left: 837px; 
+    backdrop-filter: blur(10px); 
+}
+
+#valorDólar, #maiorValor, #menorValor {
+    color: #ffffff; /* Cor do texto laranja escuro */
+    font-size: 37px;
+    position: relative;
+    left: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    color: #FFDAB9; /* Cor do texto laranja claro */
+    font-size: 20px;
+    position: relative;
+    left: 39px;
+}
+
+/*HOME*/
+
+.opcao1 {
+    border: 1px solid #FFA07A; /* Borda laranja claro */
+    border-radius: 25px; /*Arredondamento dos cantos*/
+    padding: 15px; /*Espaçamento Interno*/
+    background-color: #FFA07A; /*Fundo laranja claro*/
+    width: 72px; /*Largura*/
+    position: relative; /*Permite o uso dos comandos "top" e "left"*/
+    top: 280px; /*Move o elemento para baixo*/
+    left: 700px; /*Move o elemento para a direita*/
+    backdrop-filter: blur(10px); /*Aplica um desfoque ao fundo atrás do elemento*/
+    font-size: 28px;
+}
+
+.opcao2 {
+    border: 1px solid #FFA07A; /* Borda laranja claro */
+    border-radius: 25px; /*Arredondamento dos cantos*/
+    padding: 15px; /*Espaçamento Interno*/
+    background-color: #FFA07A; /*Fundo laranja claro*/
+    width: 66px; /*Largura*/
+    position: relative; /*Permite o uso dos comandos "top" e "left"*/
+    top: 217px; /*Move o elemento para baixo*/
+    left: 1178px; /*Move o elemento para a direita*/
+    backdrop-filter: blur(10px); /*Aplica um desfoque ao fundo atrás do elemento*/
+    font-size: 28px;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.opcao3 {
+    border: 1px solid #FFA07A; /* Borda laranja claro */
+    border-radius: 25px; /*Arredondamento dos cantos*/
+    padding: 15px; /*Espaçamento Interno*/
+    background-color: #FFA07A; /*Fundo laranja claro*/
+    width: 56px; /*Largura*/
+    position: relative; /*Permite o uso dos comandos "top" e "left"*/
+    top: 500px; /*Move o elemento para baixo*/
+    left: 930px; /*Move o elemento para a direita*/
+    backdrop-filter: blur(10px); /*Aplica um desfoque ao fundo atrás do elemento*/
+    font-size: 28px;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/*Estilizando o header*/
+.header {
+    background-color: #FFE4B5; /* Cor de fundo laranja claro */
+    width: 98%; /*Diminui a largura para 98% da tela*/
+    padding: 20px;
+    text-align: left;
+}
+
+/* Estilo para o texto "home" */
+.titulo {
+    color: #6F4F28; /* Cor do texto marrom escuro */
+    font-size: 36px;
+    margin: 0;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/*CEP*/
+.fundo4 {
+    background-color: #D2B48C; /* Cor de fundo marrom claro */
+}
+
+.titulo2 {
+    position: relative;
+    top: 100px;
+    color: #5f3e15; /* Cor do texto laranja escuro */
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+fieldset {
+    position: relative;
+    top: 100px;
+    width: 10%; 
+    padding: 20px; 
+    border: 5px solid #6F4F28; /* Borda marrom escuro */
+    border-radius: 10px;
+    margin-top: 50px;
+    margin: 0 auto;
+    background-color: #FFE4B5; /* Cor de fundo laranja claro */
+}
+/*HOME*/
+.fundo3 {
+    background-color: #d4b286; /* Cor de fundo marrom claro */
+}
+
+.header {
+    background-color: #FFE4B5; /* Cor de fundo laranja claro */
+    width: 98%; /* Diminui a largura para 98% da tela */
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para destaque */
+}
+
+.titulo {
+    color: #6F4F28; /* Cor do texto marrom escuro */
+    font-size: 36px;
+    margin: 0;
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Fonte */
+}
+
+.titulo-início{
+    color: #FF8C00; /* Cor do título em laranja escuro */
+    text-align: center; /* Centraliza o título */
+    font-size: 48px; /* Tamanho da fonte para destaque */
+    margin-top: 50px; /* Espaçamento acima do título */
+    margin-bottom: 30px; /* Espaçamento abaixo do título */
+}
+
+.opcao1, .opcao2, .opcao3 {
+    border: 1px solid #FF8C00; /* Borda laranja escuro */
+    border-radius: 25px; /* Arredondamento dos cantos */
+    padding: 15px; /* Espaçamento Interno */
+    background-color: #FFA07A; /* Fundo laranja claro */
+    width: 72px; /* Largura opcional, pode ser ajustada conforme o conteúdo */
+    font-size: 28px;
+    color: #6F4F28; /* Cor do texto marrom escuro */
+    text-align: center; /* Centraliza o texto */
+    display: inline-block; /* Faz com que os elementos fiquem na mesma linha */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave para alterações de cor */
+    margin: 10px; /* Espaçamento entre os botões */
+}
+
+.opcao1:hover, .opcao2:hover, .opcao3:hover {
+    background-color: #FF7F50; /* Cor de fundo laranja mais intenso ao passar o mouse */
+    color: #FFD700; /* Cor do texto dourado ao passar o mouse */
+}
+
+.opcao1 {
+    position: relative;
+    top: 0px; /* Ajuste para a posição conforme necessário */
+    left: 0px; /* Ajuste para a posição conforme necessário */
+}
+
+.opcao2 {
+    position: relative;
+    top: 0px; /* Ajuste para a posição conforme necessário */
+    left: 0px; /* Ajuste para a posição conforme necessário */
+}
+
+.opcao3 {
+    position: relative;
+    top: 0px; /* Ajuste para a posição conforme necessário */
+    left: 0px; /* Ajuste para a posição conforme necessário */
+}
+
+.container-início{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: calc(100vh - 100px); /* Ajusta a altura para preencher o restante da tela */
+}
+
+.card-início{
+    background-color: #FFFAF0; /* Cor de fundo laranja claro */
+    border: 1px solid #FF8C00; /* Borda laranja escuro */
+    border-radius: 15px; /* Arredondamento dos cantos */
+    padding: 20px; /* Espaçamento Interno */
+    margin: 10px; /* Espaçamento entre os cartões */
+    width: 80%; /* Largura ajustada para ser responsiva */
+    max-width: 600px; /* Largura máxima */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para destaque */
+}
+
+.card-inícioh2 {
+    color: #6F4F28; /* Cor do título em marrom escuro */
+    font-size: 28px;
+    margin: 0 0 10px 0; /* Margens ajustadas para título */
+}
+
+.card-iníciop {
+    color: #6F4F28; /* Cor do texto em marrom escuro */
+    font-size: 18px;
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+}
